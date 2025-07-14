@@ -1,0 +1,16 @@
+#Julio Armando Peña Peña-250253
+
+#Cambiar A y B
+
+# Ingresar valores
+a = int(input("Ingrese el valor de A: "))
+b = int(input("Ingrese el valor de B: "))
+
+# Intercambiar sin variable auxiliar
+a = a + b
+b = a - b
+a = a - b
+
+# Mostrar resultados
+print("Nuevo valor de A:", a)
+print("Nuevo valor de B:", b)

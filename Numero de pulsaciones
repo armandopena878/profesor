@@ -1,0 +1,11 @@
+# Julio Armando Peña Peña
+#Numero de pulsaciones
+
+
+# calcular la edad del paciente
+
+edad=int(input ("ingresa tu edad:"))
+pulsaciones= (220-edad)/10
+print(f"Numero de pulsaciones por cada 10 segundos de ejercicio {pulsaciones}")
+
+

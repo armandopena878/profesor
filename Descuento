@@ -1,0 +1,15 @@
+#Julio Armando Peña Peña
+#Descuento del 8%
+
+# Solicitar el total de la compra al usuario
+total_compra = float(input("Ingrese el total de la compra: $"))
+
+# Calcular el 8% de descuento
+descuento = total_compra * 0.08
+
+# Calcular el total a pagar con descuento
+total_final = total_compra - descuento
+
+# Mostrar resultados
+print(f"\nDescuento aplicado: ${descuento:.2f}")
+print(f"Total a pagar con descuento: ${total_final:.2f}")

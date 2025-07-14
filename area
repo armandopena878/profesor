@@ -1,0 +1,13 @@
+# Julio Armando Peña Peña
+# Area de un rectangulo
+
+#aolicitar que el usuario ingrese la base y la altura (lado1 y lado2)
+lado1= float(input("Ingrese la base:"))
+lado2= float(input ("ingrese la altura:"))
+
+
+#calcular
+area=lado1*lado2
+
+#imprimir
+print(f"El area del rectangulo con base {lado1} y altura {lado2} es: {area}")

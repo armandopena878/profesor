@@ -1,0 +1,19 @@
+# Julio armando peña peña
+# Operaciones basicas
+
+x=10
+y=2
+
+# calcular + - * /
+sum= x+y
+res=x-y
+mul=x*y
+div=x/y
+
+# Imprimir la suma y el promedio
+print(f"la operacion{x}+{y} es {sum}")
+print(f"la operacion{x}-{y} es {res}")
+print(f"la operacion{x}*{y} es {mul}")
+print(f"la operacion{x}/{y} es {div}")
+
+

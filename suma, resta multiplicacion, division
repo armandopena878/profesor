@@ -1,0 +1,23 @@
+#Julio armando peña peña-250253
+#algoritmo para sum, res, mul, div
+
+# Solicitar datos al usuario
+num1 = float(input("Ingrese el primer número: "))
+num2 = float(input("Ingrese el segundo número: "))
+
+# Operaciones
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+
+# División con validación
+if num2 != 0:
+    division = num1 / num2
+    print("La división es:", division)
+else:
+    print("No se puede dividir entre 0")
+
+# Mostrar resultados
+print("La suma es:", suma)
+print("La resta es:", resta)
+print("La multiplicación es:", multiplicacion)

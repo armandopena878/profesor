@@ -1,0 +1,15 @@
+#Julio Armando Peña Peña.250253
+#numero inverso
+
+# Solicitar número
+numero = int(input("Ingrese un número entero: "))
+inverso = 0
+
+# Invertir el número
+while numero > 0:
+    digito = numero % 10
+    inverso = inverso * 10 + digito
+    numero = numero // 10
+
+# Mostrar el número invertido
+print("El número invertido es:", inverso)
